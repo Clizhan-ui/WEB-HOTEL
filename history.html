@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://public-frontend-cos.metadl.com/mgx/img/favicon-atoms.png" type="image/png">
+    <title>Riwayat Pemesanan - Grand Hotel</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="bi bi-building"></i> Grand Hotel
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="rooms.html">Jenis Kamar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="facilities.html">Fasilitas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="booking.html">Pemesanan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="history.html">Riwayat</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="admin-login.html">
+                            <i class="bi bi-person-circle"></i> Admin
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <div style="height: 80px;"></div>
+    <section class="section">
+        <div class="container">
+            <div class="section-title">
+                <h1>Riwayat Pemesanan</h1>
+                <p>Lihat semua riwayat pemesanan Anda</p>
+            </div>
+
+            <!-- User Info Card -->
+            <div class="card mb-4">
+                <div class="card-body">
+                    <div class="row align-items-center">
+                        <div class="col-md-8">
+                            <h5 class="mb-2">
+                                <i class="bi bi-person-circle"></i> John Doe
+                            </h5>
+                            <p class="text-muted mb-0">
+                                <i class="bi bi-envelope"></i> <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="8fe5e0e7e1a1ebe0eacfeae2eee6e3a1ece0e2">[email&#160;protected]</a> | 
+                                <i class="bi bi-telephone"></i> +62 812 3456 7890
+                            </p>
+                        </div>
+                        <div class="col-md-4 text-md-end mt-3 mt-md-0">
+                            <span class="badge bg-primary" style="font-size: 1rem; padding: 0.5rem 1rem;">
+                                Total Pemesanan: 5
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Booking History -->
+            <div class="row g-4">
+                <!-- Booking 1 - Completed -->
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <div class="d-flex justify-content-between align-items-start mb-3">
+                                        <div>
+                                            <h5 class="card-title mb-1">Deluxe Room</h5>
+                                            <p class="text-muted mb-2">
+                                                <i class="bi bi-hash"></i> Booking ID: BK-2024-001
+                                            </p>
+                                        </div>
+                                        <span class="badge bg-success">Selesai</span>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-6 mb-2">
+                                            <small class="text-muted">Check-in</small>
+                                            <p class="mb-0 fw-bold">
+                                                <i class="bi bi-calendar-check"></i> 15 Des 2023
+                                            </p>
+                                        </div>
+                                        <div class="col-sm-6 mb-2">
+                                            <small class="text-muted">Check-out</small>
+                                            <p class="mb-0 fw-bold">
+                                                <i class="bi bi-calendar-x"></i> 18 Des 2023
+                                            </p>
+                                        </div>
+                                        <div class="col-sm-6 mb-2">
+                                            <small class="text-muted">Durasi</small>
+                                            <p class="mb-0 fw-bold">3 malam</p>
+                                        </div>
+                                        <div class="col-sm-6 mb-2">
+                                            <small class="text-muted">Jumlah Tamu</small>
+                                            <p class="mb-0 fw-bold">2 orang</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 text-md-end mt-3 mt-md-0">
+                                    <h4 class="text-primary-custom mb-3">Rp 2.640.000</h4>
+                                    <p class="text-muted mb-3">
+                                        <i class="bi bi-credit-card"></i> Transfer Bank
+                                    </p>
+                                    <button class="btn btn-outline-primary btn-sm">
+                                        <i class="bi bi-file-earmark-text"></i> Lihat Detail
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Booking 2 - Confirmed -->
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <div class="d-flex justify-content-between align-items-start mb-3">
+                                        <div>
+                                            <h5 class="card-title mb-1">Suite Room</h5>
+                                            <p class="text-muted mb-2">
+                                                <i class="bi bi-hash"></i> Booking ID: BK-2024-002
+                                            </p>
+                                        </div>
+                                        <span class="badge bg-info">Dikonfirmasi</span>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-6 mb-2">
+                                            <small class="text-muted">Check-in</small>
+                                            <p class="mb-0 fw-bold">
+                                                <i class="bi bi-calendar-check"></i> 20 Jan 2024
+                                            </p>
+                                        </div>
+                                        <div class="col-sm-6 mb-2">
+                                            <small class="text-muted">Check-out</small>
+                                            <p class="mb-0 fw-bold">
+                                                <i class="bi bi-calendar-x"></i> 23 Jan 2024
+                                            </p>
+                                        </div>
+                                        <div class="col-sm-6 mb-2">
+                                            <small class="text-muted">Durasi</small>
+                                            <p class="mb-0 fw-bold">3 malam</p>
+                                        </div>
+                                        <div class="col-sm-6 mb-2">
+                                            <small class="text-muted">Jumlah Tamu</small>
+                                            <p class="mb-0 fw-bold">4 orang</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 text-md-end mt-3 mt-md-0">
+                                    <h4 class="text-primary-custom mb-3">Rp 4.950.000</h4>
+                                    <p class="text-muted mb-3">
+                                        <i class="bi bi-credit-card"></i> Kartu Kredit
+                                    </p>
+                                    <button class="btn btn-outline-primary btn-sm me-2">
+                                        <i class="bi bi-file-earmark-text"></i> Lihat Detail
+                                    </button>
+                                    <button class="btn btn-outline-danger btn-sm">
+                                        <i class="bi bi-x-circle"></i> Batalkan
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Booking 3 - Pending -->
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <div class="d-flex justify-content-between align-items-start mb-3">
+                                        <div>
+                                            <h5 class="card-title mb-1">Standard Room</h5>
+                                            <p class="text-muted mb-2">
+                                                <i class="bi bi-hash"></i> Booking ID: BK-2024-003
+                                            </p>
+                                        </div>
+                                        <span class="badge bg-warning">Menunggu Pembayaran</span>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-6 mb-2">
+                                            <small class="text-muted">Check-in</small>
+                                            <p class="mb-0 fw-bold">
+                                                <i class="bi bi-calendar-check"></i> 10 Feb 2024
+                                            </p>
+                                        </div>
+                                        <div class="col-sm-6 mb-2">
+                                            <small class="text-muted">Check-out</small>
+                                            <p class="mb-0 fw-bold">
+                                                <i class="bi bi-calendar-x"></i> 12 Feb 2024
+                                            </p>
+                                        </div>
+                                        <div class="col-sm-6 mb-2">
+                                            <small class="text-muted">Durasi</small>
+                                            <p class="mb-0 fw-bold">2 malam</p>
+                                        </div>
+                                        <div class="col-sm-6 mb-2">
+                                            <small class="text-muted">Jumlah Tamu</small>
+                                            <p class="mb-0 fw-bold">2 orang</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 text-md-end mt-3 mt-md-0">
+                                    <h4 class="text-primary-custom mb-3">Rp 1.100.000</h4>
+                                    <p class="text-muted mb-3">
+                                        <i class="bi bi-credit-card"></i> Transfer Bank
+                                    </p>
+                                    <button class="btn btn-primary btn-sm me-2">
+                                        <i class="bi bi-cash"></i> Bayar Sekarang
+                                    </button>
+                                    <button class="btn btn-outline-danger btn-sm">
+                                        <i class="bi bi-x-circle"></i> Batalkan
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Booking 4 - Cancelled -->
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <div class="d-flex justify-content-between align-items-start mb-3">
+                                        <div>
+                                            <h5 class="card-title mb-1">Deluxe Room</h5>
+                                            <p class="text-muted mb-2">
+                                                <i class="bi bi-hash"></i> Booking ID: BK-2023-004
+                                            </p>
+                                        </div>
+                                        <span class="badge bg-danger">Dibatalkan</span>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-6 mb-2">
+                                            <small class="text-muted">Check-in</small>
+                                            <p class="mb-0 fw-bold">
+                                                <i class="bi bi-calendar-check"></i> 05 Nov 2023
+                                            </p>
+                                        </div>
+                                        <div class="col-sm-6 mb-2">
+                                            <small class="text-muted">Check-out</small>
+                                            <p class="mb-0 fw-bold">
+                                                <i class="bi bi-calendar-x"></i> 07 Nov 2023
+                                            </p>
+                                        </div>
+                                        <div class="col-sm-6 mb-2">
+                                            <small class="text-muted">Durasi</small>
+                                            <p class="mb-0 fw-bold">2 malam</p>
+                                        </div>
+                                        <div class="col-sm-6 mb-2">
+                                            <small class="text-muted">Alasan</small>
+                                            <p class="mb-0 fw-bold">Perubahan jadwal</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 text-md-end mt-3 mt-md-0">
+                                    <h4 class="text-muted mb-3">Rp 1.760.000</h4>
+                                    <p class="text-muted mb-3">
+                                        <i class="bi bi-credit-card"></i> Refund Processed
+                                    </p>
+                                    <button class="btn btn-outline-primary btn-sm">
+                                        <i class="bi bi-file-earmark-text"></i> Lihat Detail
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Empty State (Hidden by default, shown when no bookings) -->
+            <div class="text-center py-5 d-none" id="emptyState">
+                <i class="bi bi-inbox" style="font-size: 5rem; color: #ccc;"></i>
+                <h4 class="mt-3 text-muted">Belum Ada Riwayat Pemesanan</h4>
+                <p class="text-muted">Anda belum pernah melakukan pemesanan</p>
+                <a href="booking.html" class="btn btn-primary mt-3">
+                    <i class="bi bi-calendar-check"></i> Pesan Sekarang
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h5><i class="bi bi-building"></i> Grand Hotel</h5>
+                    <p>Hotel bintang 5 dengan pelayanan terbaik dan fasilitas lengkap untuk kenyamanan Anda.</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Kontak</h5>
+                    <p><i class="bi bi-geo-alt"></i> Jl. Sudirman No. 123, Jakarta</p>
+                    <p><i class="bi bi-telephone"></i> +62 21 1234 5678</p>
+                    <p><i class="bi bi-envelope"></i> <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="f49d9a929bb49386959a909c9b809198da979b99">[email&#160;protected]</a></p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Link Cepat</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="rooms.html">Jenis Kamar</a></li>
+                        <li><a href="facilities.html">Fasilitas</a></li>
+                        <li><a href="booking.html">Pemesanan</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Grand Hotel. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
